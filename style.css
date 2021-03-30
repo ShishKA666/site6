@@ -1,0 +1,220 @@
+html,body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+h2{
+    color: blue;
+    font-size: 40px;
+}
+
+h3{
+   font-size: 30px; 
+}
+.container{
+   max-width: 1200px;
+   margin: 0px auto;
+}
+/*------------------------------Header--------------------------------------*/
+.page-header{
+    display: flex;
+    margin-top: 10px;
+}
+
+.main-menu{
+    display: flex;
+    flex-grow: 1;
+}
+
+.main-menu-list{
+    list-style: none;
+    padding: 0px;
+    display: flex;
+    justify-content:  space-around;
+    flex-grow: 1;
+}
+
+.main-menu-list a{
+    color: cornflowerblue;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.main-menu-list a:hover{
+    color: gray;
+}
+
+/*-----------------------------------Footer-------------------------------*/
+.page-footer{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 35px 0px;
+    background-color: lightgreen;
+}
+
+.hashtag,.footer-social,.copyright{
+    margin: 0px;
+    padding: 0px;
+}
+
+.hashtag{
+    text-transform: uppercase;
+    font-size: 21px;
+    font-weight: bolder;
+    line-height: 26px;
+}
+
+.footer-social{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    
+}
+
+.social-button{
+    margin: 0px 15px;
+}
+
+.copyright{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.footer-wraper{
+    background-color: lightgreen;  
+}
+
+/*---------------------------------Slogan---------------------------------*/
+.slogan{
+    background-image: url(img/innsbruck1.png);
+    height: 500px;
+    background-repeat: no-repeat;
+}
+
+.slogan h1{
+    display: flex;
+    color: white;
+    padding-top: 200px;
+    font-size: 50px;
+}
+
+
+.ads{
+    background-image: url(img/skier.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center right;
+    width: 30%;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ads p{
+    text-transform: uppercase;
+    font-size: 2vw;
+    margin: 0px;
+    padding: 5px;
+}
+
+.ads a{
+    background-color: white;
+    opacity: 0.7;
+    color: black;
+    width: 160px;
+    display: inline-block;
+    margin-top: 32px;
+    align-self: flex-end;
+    padding: 5px 10px;
+}
+
+.about-numbers ul{
+    list-style: none;
+    padding-left: 20px;
+}
+
+.about-numbers li::before{
+    margin-right: 3px;
+    content: "✓";
+}
+
+.about-tempearature figcaption{
+    background-color: gray;
+    text-align: center;
+    color: white;
+    padding: 15px 0px;
+    font-size: 25px;
+    margin: 0px;
+}
+
+.about-tempearature img{
+    width: 100%;
+    border: 1px gray solid;
+    border-bottom-width: 0px;
+    margin: 0px;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*---------------------------Gallery---------------------------*/
+.gallery-list{
+   display: flex;
+   flex-direction: column;
+   margin: 0px;
+   padding: 0px;
+}
+
+.gallery-item{
+    list-style: none;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 15px;
+    align-items: center;
+    min-height: 256px;
+    background-color: #B6DBCD;
+    color: white;
+    text-align: center;
+}
+
+.gallery-item h3{
+    padding: 70px;
+    text-transform: uppercase;
+}
+
+/*----------------------------Map----------------------------------------*/
+.google-map{
+    width: 100%;
+}
+
+.transport{
+    border-collapse: collapse;
+    text-align: center;
+    margin: 0px auto;
+    margin-bottom: 25px;
+    width: 600px;
+    height: 200px;
+}
+
+.transport td,th{
+    border: 1px black solid;
+}
+
+.transport th{
+    background-color: blue;
+    color: white;
+}
