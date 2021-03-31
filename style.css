@@ -218,3 +218,23 @@ h3{
     background-color: blue;
     color: white;
 }
+
+.transport tr:nth-child(1){
+    background-color: gray;
+}
+
+.transport tr:nth-child(2){
+    background-color: skyblue;
+}
+
+.transport tr:nth-child(3){
+    background-color: gray;
+}
+
+.transport tr:nth-child(4){
+    background-color: skyblue;
+}
+
+.transport tr:nth-child(5){
+    background-color: gray;
+}
